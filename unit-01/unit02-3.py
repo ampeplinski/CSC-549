@@ -41,12 +41,10 @@ def calc_quarters(digit):
 
 
 def main():
-    """
     money_due = float(input("How much do you owe?: "))
     money_given = float(input("How much did you give to the clerk?: "))
-    """
-    money_due = float(3.69)
-    money_given = float(10)
+    #money_due = float(3.69)
+    #money_given = float(10)
     cost_difference = money_given - money_due
     
     print(f"the clerk owes you ${str(cost_difference)[0:4]}")
