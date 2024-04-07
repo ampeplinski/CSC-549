@@ -15,10 +15,12 @@ def A(x,y):
         return result
 
 def main():
-    print("if x =1 and y = 10")
-    print(A(1,10))
-    print("if x = 2 and y = 4")
-    print(A(2,4))
+    print("if x =0 and y = 20")
+    print(A(0,20))
+    print("if x =1 and y = 6")
+    print(A(1,6))
+    print("if x = 2 and y = 3")
+    print(A(2,3))
     print("if x = 3 and y = 3")
     print(A(3,3))
    
