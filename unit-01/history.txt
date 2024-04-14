@@ -1,0 +1,180 @@
+    1  apt-get
+    2  apt-get search python
+    3  apt-get find
+    4  apt-get list
+    5  apt-get check
+    6  apt-get
+    7  apt-get install python3
+    8  sudo apt-get install python3
+    9  sudo apt-get install python3.11
+   10  python3
+   11  cd downloads
+   12  ls
+   13  cd Downloads
+   14  ls
+   15  sudo apt install ./code_1.87.2-1709912201_amd64.deb
+   16  sudo visudo
+   17  sudo apt-get install python3.12
+   18  sudo apt-search
+   19  sudo apt-list
+   20  sudo apt-get update
+   21  apt-cache search python
+   22  sudo apt-get install python3.11
+   23  python3 --version
+   24  python3.11 --version
+   25  sudo apt-get install python3.12
+   26  ls
+   27  cd Downloads
+   28  ls
+   29  cd Python-3.12.3/
+   30  ls
+   31  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install 
+   32  sudo apt-get install gcc
+   33  sudo apt-get update
+   34  sudo apt-get install gcc
+   35  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install 
+   36  sudo apt-get install pkg-config
+   37  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install 
+   38  make
+   39  sudo apt-get install make
+   40  make
+   41  make test
+   42  sudo make install
+   43  history | less
+   44  ls
+   45  cd Downloads
+   46  ls
+   47  cd Python-3.12.3/
+   48  ls
+   49  make
+   50  sudo apt-get install readline
+   51  sudo apt-
+   52  apt-cache search libffi
+   53  sudo apt-get install libffi-dev
+   54  apt-cache search bzip2
+   55  apt-cache search bzip2-
+   56  apt-cache search bzip2
+   57  sudo apt-get install bzip2
+   58  sudo apt-get install bz2
+   59  apt-cache search bz2
+   60  apt-cache search openssl
+   61  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install 
+   62  sudo apt-get install g++
+   63  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install 
+   64  make clean
+   65  make
+   66  make install
+   67  sudo make install
+   68  ./configure --prefix=/usr/bin --enable-optimizations
+   69  make clean
+   70  make
+   71  make install
+   72  sudo make install
+   73  apt-cache search zlib
+   74  apt-cache search zlib1g-dev
+   75  sudo apt-get install zlib1g-dev
+   76  apt-cache search libbz2
+   77  sudo apt-get install libbz2-dev
+   78  ./configure --prefix=/usr/bin --enable-optimizations
+   79  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install
+   80  apt-cache search sqlite3
+   81  sudo apt-get install sqlite3
+   82  apt-cache search openssl
+   83  cd ..
+   84  ls
+   85  cd openssl-3.3.0/
+   86  ls
+   87  ./config --prefix=/usr/src/openssl/openssl-3-1-0
+   88  make
+   89  make install
+   90  sudo make install
+   91  sudo apt-get install gdb
+   92  sudo apt-get install lcov
+   93  sudo apt-get install build-essential
+   94  sudo apt-get install pkg-config
+   95  sudo apt-get install libbz2-dev
+   96  sudo apt-get install libffi-dev
+   97  sudo apt-get install libgbm-dev
+   98  sudo apt-get install libgbm-compat-dev
+   99  sudo apt-get install libgdbm-dev
+  100  sudo apt-get uninstall libgbm-dev
+  101  sudo apt-get remove libgbm-dev
+  102  sudo apt-get uninstall libgdbm-compat-dev
+  103  sudo apt-get install libgdbm-compat-dev
+  104  sudo apt-get install liblzma-dev
+  105  sudo apt-get install libcurses5-dev
+  106  sudo apt-get install libncurses5-dev
+  107  sudo apt-get install libreadline6-dev
+  108  sudo apt-get install libsqlite3-dev
+  109  sudo apt-get install libssl-dev
+  110  sudo apt-get install lzma
+  111  sudo apt-get install lzma-dev
+  112  sudo apt-get install tk-dev
+  113  sudo apt-get install uuid-dev
+  114  sudo apt-get install zlib1g-dev
+  115  sudo apt-get install build-dep python3
+  116  sudo apt-get build-dep python3
+  117  sudo nano /etc/apt/sources.list
+  118  sudo apt-get build-dep python3
+  119  sudo nano /etc/apt/sources.list
+  120  sudo apt-get build-dep python3
+  121  sudo nano /etc/apt/sources.list
+  122  sudo apt-get build-dep python3
+  123  sudo nano /etc/apt/sources.list
+  124  sudo apt-get build-dep python3
+  125  cd ..
+  126  ls
+  127  cd Python-3.12.3/
+  128  make regen-configure
+  129  sudo apt-get build-dep docker
+  130  sudo apt-get install docker
+  131  make regen-configure
+  132  docker --version
+  133  sudo apt-get build-dep docker.io
+  134  sudo apt-get install docker.io
+  135  make regen-configure
+  136  sudo make regen-configure
+  137  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install
+  138  make
+  139  history >> history.bak1
+  140  cd ~/
+  141  ls
+  142  history >> history.back1
+  143  cd ..
+  144  ls
+  145  cd alshock
+  146  sudo cs alshock
+  147  sudo cd alshock
+  148  sudo
+  149  cd Downloads/
+  150  ls
+  151  cd Python-3.12.3/
+  152  ls
+  153  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install
+  154  sudo apt-get build-dep python3
+  155  ./configure --prefix=/usr/bin --enable-optimizations --with-ensurepip=install
+  156  make
+  157  make install
+  158  sudo make install
+  159  cd ..
+  160  ls
+  161  cd ..
+  162  ls
+  163  cd ..
+  164  ls
+  165  sudo
+  166  su
+  167  su cd alshock
+  168  sudo cd
+  169  cd alshock
+  170  cd ..
+  171  ls
+  172  history >> history.back3
+  173  cd /home
+  174  ls
+  175  history >> history.back3
+  176  cd /tmp
+  177  ls
+  178  history >> history.back3
+
+also cp python to /usr/bin
