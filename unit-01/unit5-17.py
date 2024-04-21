@@ -7,19 +7,19 @@ def first[int](list: Iterable[int])-> int:
 
 #class last_pair[T]:
 
-def length[int](list: Iterable[int]) -> int:
+def last_pair[int](list: Iterable[int]) -> int:
     #print(list)
-    def length_iter(a:list ,count:int) -> int:
+    def last_pair_iter(a:list ,count:int) -> int:
         #print(a)
         #print(count)
         if a == []:
             return []
-        if length_iter(a[1:], count+1) == []:
+        if last_pair_iter(a[1:], count+1) == []:
             return a[0]
         else:
-            return length_iter(a[1:], count+1)
+            return last_pair_iter(a[1:], count+1)
     
-    return length_iter(list,0)
+    return last_pair_iter(list,0)
 
 """
 def cons(1,2):
@@ -41,7 +41,7 @@ def length(items):
 
 
 def main():
-    last_item = length([23,72,149,34])
+    last_item = last_pair([23,72,149,34])
     print(last_item)
 
 
