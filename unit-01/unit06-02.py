@@ -73,11 +73,33 @@ def multiplicand(p):
     print(f"multiplicand  {p[2] = }")
     return p[2]   
 
-#def base():
+def base(b):
+    print(f"base is {b[1] = }")
+    return b[1]
 
-#def exponent():
+def exponent(xx):
+    print(f"exponent is {xx[2] = }")
+    return xx[2]
 
-#def make_exponentiation():
+def is_exponent(ex):
+    print(f"checking if exponent {ex = }")
+    if ex[0] == "**":
+        print(f"first item is {ex[0] = }")
+        return True
+    else:
+        return False
+
+def make_exponentiation(ex1, ex2):
+    print(f"making exponentiation {ex1 = } and {ex2 =} \n")
+    if eq_number(ex2, 0):
+        return int(1)
+    elif eq_number(ex2, 1):
+        return ex1
+    elif isinstance(ex2, int) or isinstance(ex2, float):
+        print(f"subtracting 1 from {ex2}")
+        return ["**",["*", ex2, ex1], ex2 - 1]
+    else:
+        return ["**", ex1, ex2]
 
 
 def derive(exp, var):
@@ -103,6 +125,9 @@ def derive(exp, var):
         second = make_product(derive(multiplier(exp),var), multiplicand(exp))
         print(f"{second = }")
         return make_sum(first, second)
+    elif is_exponent(exp):
+        return make_exponentiation(base(exp), exponent(exp))
+        
     else:
         raise SystemExit(f"unknown expression type: DERIVE {exp}")
 
@@ -112,7 +137,8 @@ def main():
     print("\n")
     #print(f"Answer 2: {derive(["*","x","y"],"x")}")
     print("\n")
-    print(f"Answer 3: {derive(["*",["*","x","y"], ["+","x","3"]],"x")}")
+    #print(f"Answer 3: {derive(["*",["*","x","y"], ["+","x","3"]],"x")}")
+    print(f"Answer 4: {derive(["**","x",3],"x")}")
 
 
 
