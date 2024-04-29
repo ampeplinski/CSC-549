@@ -1,6 +1,6 @@
 from random import randint
 
-class Segments[T]:
+class Segment[T]:
     def __init__(self, start_x:int, start_y:int, end_x:int, end_y:int, /) -> T:
         self._startx = start_x
         self._starty = start_y
@@ -51,13 +51,24 @@ class Segments[T]:
         midy = (self._starty + self._endy) / 2
         return mid_point
 
+
+class Rectangle[T](Segment):
+    
+    def make_segments(self):
+        self._segment1 = Segment(0,0,5,0)
+        self._segment2 = Segment(5,0,5,5)
+        self._segment3 = Segment(5,5,0,5)
+        self._segment4 = Segment(0,5,0,0)
+        print(self._segment1)
+
+    def compute_perimiter(self):
+        pass
+
+    def compute_area(self):
+        pass
+
 def main():
-    segment = Segments(1,2,7,8)
-    segment.print_point("start")
-    segment.print_point("end")
-    segment.make_segment()
-    segment.print_point("start")
-    segment.print_point("end")
+    a_rectangle = Rectangle.make_segments("test")
 
 if __name__ == "__main__":
     main()
