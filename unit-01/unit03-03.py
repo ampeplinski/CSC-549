@@ -9,6 +9,12 @@ def fib(n,fib_list):
     fib_number = ("{:f}".format((phi ** n - psi ** n ) /  (5**(1/2))))
     fib_list.append(fib_number)
     n = n+1
+    if n == 1:
+        print(fib_list[-1])
+    if n == 2:
+        print(fib_list[-1])
+    if n == 3:
+        print(fib_list[-1])
     if n == 500:
         print(fib_list[-1])
         #return fib_list
